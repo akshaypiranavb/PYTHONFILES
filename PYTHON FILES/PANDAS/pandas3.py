@@ -1,0 +1,12 @@
+import pandas as pd
+file=pd.read_csv("dirtydata.csv")
+print(file)
+print(file.to_string())
+x=file.dropna()
+print(x)
+# file.dropna(inplace=True)
+# print(file)
+c=file.fillna(100)
+print(c)
+file.fillna(1000,inplace=True)
+print(file)

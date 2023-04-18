@@ -1,0 +1,15 @@
+import numpy as np
+
+x=np.array((1,2,3,4,5))
+print(x)
+print(type(x))
+a=np.array(12)
+print(a,a.ndim)
+b=np.array([1,2,3,4])
+print(b,b.ndim)
+c=np.array([[1,2,3,4],[4,5,6,7]])
+print(c,c.ndim)
+d=np.array([[[1,2,3,4],[4,5,6,7],[1,2,3,4],[4,5,6,7]]])
+print(d,d.ndim)
+e=np.array([1,2,3,4,5],ndmin=5)
+print(e,e.ndim)

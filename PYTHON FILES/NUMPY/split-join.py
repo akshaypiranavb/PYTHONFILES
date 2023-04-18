@@ -1,0 +1,12 @@
+import numpy as np
+a=np.array([[1,2,3],[4,5,6]])
+b=np.array([[7,8,9],[10,11,12]])
+print(np.concatenate((a,b)))
+print(np.concatenate((a,b),axis=1))
+print(np.stack((a,b),axis=1))
+print(np.dstack((a,b)))
+print(np.hstack((a,b)))
+print(np.vstack((a,b)))
+arr=np.array([1,2,3,4,5,6,7,8,9])
+arr1=np.array_split(arr,3)
+print(arr1)
